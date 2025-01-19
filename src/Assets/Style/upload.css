@@ -1,0 +1,64 @@
+#create_btn {
+  background-color: rgb(186, 158, 133);
+  border-color: black;
+  position: fixed;
+  left: 65px;
+  top: 130px;
+  width: 120px;
+  height: 50px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.1);
+  z-index: 5;
+}
+
+.card_table{
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 22px;
+  width: 67%;
+  height: auto;
+  top: 19vh;
+  left: 17vw;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+#create_btn:hover{
+  background-color: rgb(170, 145, 124);
+}
+
+.uploaded_card{
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  padding: 15px;
+  height: auto;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
+
+.update .edit{
+  position: relative;
+  right: 30px;
+  height: 40px;
+  background-color: rgb(46, 172, 245);
+  border-color: transparent;
+  z-index: 5;
+}
+
+.update .delete {
+  position: relative;
+  left: 30px;
+  height: 40px;
+  background-color: rgb(46, 172, 245);
+  border-color: transparent;
+  z-index: 5;
+}
+
+#loadMsg{
+  position: relative;
+  font-size: 20px;
+  left: 15px;
+  top: 10px;
+}
+
+
